@@ -1,17 +1,20 @@
 #Assume you have a list of numbers ``nums = [12, 10, 32, 3, 66, 17, 42, 99, 20]``
 nums = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
-def print_each_number():
+def print_each_number(nums):
     # Write a loop that prints each of the numbers on a new line, like this:
     # 12
     # 10
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
+      "'print each number on one line'"
+  for x in (nums):
+        print(x,sep="\n")
+print_each_number()
 
     
 
-def print_each_number_and_its_square():
+def print_each_number_and_its_square(nums):
     # Write a second loop that prints each number and its square on a new line
     # precisely like this:
     #
@@ -19,5 +22,8 @@ def print_each_number_and_its_square():
     # The square of 10 is 100
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
+    "'Print each number and its square'"
+    for x in (nums):
+        print ("The square of", x, "is", (x*x))
+print_each_number_and_its_square()
 
